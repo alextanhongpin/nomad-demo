@@ -1,12 +1,29 @@
-# nomad-demo
+# Nomad
 
-## Start a nomad instance
+This particular repo demonstrates the capability of `nomad`.
+
+## Questions
+
+There are several questions that needs to be answered here:
+
+1. What is nomad
+2. How is it different than Docker
+3. Why use nomad?
+4. What can you do with nomad?
+5. What are the best practices?
+
+
+## Setup
+
+Start a nomad agent by running the following command. For development purpose, a single instance is sufficient. (TODO: What are the recommended number of nomad running, and why?)
 
 ```bash
 $ nomad agent -dev
 ```
 
-## Init a nomad file:
+## Init:
+
+Initialize a new nomad project with the command below. It will create an `example.nomad` file. (TODO: What is this file?)
 
 ```bash
 $ nomad init

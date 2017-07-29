@@ -1,12 +1,13 @@
 job "golang" {
     datacenters = ["dc1"]
-
+    type = "batch"
+    
     group "goweb" {
         task "server" {
             driver = "raw_exec"
 
             config {
-                command = "/bin/nomad-demo"
+                command = "/Users/alextanhongpin/Documents/nomad/nomad-demo/nomad-demo"
             }
             resources {
                 cpu    = 500 # 500 MHz

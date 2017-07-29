@@ -44,3 +44,8 @@ $ nomad logs 39c6bce3 redis
 $ nomad stop example
 ```
 
+This is an example work running:
+
+$ nomad agent -dev -data-dir /tmp/nomad
+
+Your logs will be tmp/nomad/alloc..

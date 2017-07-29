@@ -46,6 +46,6 @@ $ nomad stop example
 
 This is an example work running:
 
-$ nomad agent -dev -data-dir /tmp/nomad
+$ nomad agent -dev -data-dir ./data
 
 Your logs will be tmp/nomad/alloc..

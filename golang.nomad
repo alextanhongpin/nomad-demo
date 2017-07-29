@@ -7,11 +7,13 @@ job "golang" {
             driver = "raw_exec"
 
             config {
+                # Path must be absolute, use pwd to get the current path
+                # command = "./nomad-demo"
                 command = "/Users/alextanhongpin/Documents/nomad/nomad-demo/nomad-demo"
             }
             resources {
-                cpu    = 500 # 500 MHz
-                memory = 256 # 256MB
+                cpu    = 500 # MHz
+                memory = 256 # MB
                 network {
                 mbits = 10
                 port "db" {}

@@ -1,0 +1,1 @@
+nomad job dispatch -meta dispatcher_email=john.doe@mail.com -meta pager_email=john.doe@mail.com sls config.json

@@ -1,0 +1,1 @@
+nomad agent -dev -data-dir=${PWD}/data
